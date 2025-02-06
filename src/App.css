@@ -40,3 +40,46 @@
 .read-the-docs {
   color: #888;
 }
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.tabHeader {
+  display: flex;
+  padding: 5px;
+  margin: 10px;
+}
+.heading {
+  padding: 5px;
+  margin: 2px;
+  border: 1px solid black;
+  cursor: pointer;
+}
+.tabHeader .active {
+  background-color: aqua;
+}
+
+.container {
+  display: flex;
+  padding: 5px;
+  margin: 5px;
+  border: 2px solid gray;
+  height: 200px;
+  width: 400px;
+}
+.profile {
+  margin: 3px;
+  padding: 5px;
+}
+.profile div {
+  display: flex;
+  margin: 3px;
+  padding: 5px;
+}
+.nextPrev{
+  display: flex;
+  padding: 5px;
+  margin: 5px;
+  width: 400px;
+}
+
