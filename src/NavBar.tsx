@@ -6,6 +6,9 @@ const NavBar = () => {
       <div className="flex-1">
         <a className="btn btn-ghost text-xl">Abeeha</a>
       </div>
+      <div className="flex-1">
+        <Link to="/play" className="btn btn-ghost text-xl">Fun</Link>
+      </div>
       <div className="flex-none gap-2">        
         <div className="dropdown dropdown-end">
           <div tabIndex={0} role="button" className="btn btn-ghost btn-circle avatar">

@@ -78,8 +78,26 @@
 }
 .nextPrev{
   display: flex;
+  justify-content: right;
   padding: 5px;
   margin: 5px;
   width: 400px;
 }
 
+.board{
+  
+  justify-items: center;
+  padding: 5px;
+  margin: 10px;
+  width: 500px;
+}
+.board-row{
+  display: flex;
+  padding: 5px;
+  margin: 5px;
+  
+}
+.board-row button{
+  margin: 5px;
+  border: 1px solid black;
+}
