@@ -101,3 +101,19 @@
   margin: 5px;
   border: 1px solid black;
 }
+.search {
+ display: flex;
+ border: 1px solid black;
+ width: 500px;
+}
+.search input{
+ border: 1px solid black;
+ width: 500px;
+ height: 40px;
+}
+.result{
+  display: block;
+  float: left;
+  padding: 5px;
+   width: 500px;
+}
